@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        var useragt = navigator.userAgent.toLowerCase();
+		var target_url = "https://mob.herosonsa.co.kr/hmp/cut/cpentRgt.html?p=Hxz_9AIuG3hUQyL8ddpfNUKzIHUBttvN0cFZ2i7y6do%3D";
+
+        if(useragt.match(/kakaotalk/i)){
+			location.href = 'kakaotalk://web/openExternal?url='+encodeURIComponent(target_url);			
+		}
+    </script>
+</html>
